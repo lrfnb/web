@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* outline: 1px dotted salmon; */
+  }
+  body {
+    font: 100%/1.5 sans-serif;
+    box-sizing: border-box; 
+  } 
+  .container {
+    /* margin: 0 auto;
+    position: relative;
+    max-width: 58.57em;
+    background: rgba(0,0,0,.125);
+    overflow: auto; */
+    width: 80%;
+    height: 110px;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 58.57em;
+  }
+  .nav--main { 
+    text-align: center;
+    border-right: 1px solid #d6d6d6;
+    border-left: 1px solid #b0b0b0;
+    /* background: rgba(0,0,0,.125); */
+  }  
+  .nav--main li { 
+    display: inline-block;
+  }
+  header { 
+    background-color: #ccc;
+  }
+  /* Navigation
+  ---------------------------------------------------------------------- */
+  
+  /* --- MAIN NAVIGATION --- */
+  #main-nav {
+    /* float: right; */
+    border-right: 1px solid #d6d6d6;
+    border-left: 1px solid #b0b0b0;
+    z-index: 100;
+  }
+  
+  #main-nav li {
+    list-style: none;
+    /* float: left; */
+    margin: 0;
+    position: relative;
+  }
+  
+  #main-nav a {
+    color: #555;
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    padding: 0 20px;
+    line-height: 86px;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #b0b0b0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 98;
+  }
+  
+  #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a, #main-nav .active > a {
+    color: #fa4c29;
+  }
+  
+  #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a { background-color: #dadada; border-left: 1px solid #e2e2e2; }
+  #main-nav .active > a { background-color: #dadada; }
+  
+  /* Sub nav */
+  #main-nav ul ul {
+    background: #161616;
+    -webkit-box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .2);
+    display: none;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 86px;
+    width: 200px;
+    z-index: 300;
+  }
+  
+  #main-nav ul ul li { float: none; }
+  
+  #main-nav ul ul a {
+    border: 0;
+    border-bottom: 1px solid #0a0a0a;
+    border-top: 1px solid #1f1f1f;
+    color: #aaa;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0;
+    padding: 12px 20px !important;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+  }
+  
+  #main-nav ul ul a:hover, #main-nav ul ul .hover > a, #main-nav ul ul .current > a, #main-nav ul ul .current > a:hover, #main-nav ul ul .active > a, #main-nav ul ul .active > a:hover {
+    background-color: #121212 !important;
+    border-left: none;
+    color: #fff;
+  }
+  
+  /* Dropdown */
+  #main-nav ul ul ul {
+    left: 100% !important;
+    top: 0 !important;
+  }
+  
+  /* Responsive Nav */
+  #main-nav .responsive-nav {
+    /* background-image: url(../img/responsive-nav.png); */
+    background-color: #666;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.shape_top{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 79.68%;
+    height: 50px;
+    background-color: gray;
+    list-style: none;
+}
+.shape_top li{
+    width: 19.99%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float: left;
+    border-right: 0.1px solid #164788;
+}
+.shape_top li a{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.shape_top li:hover{
+    background-color: lightgray;
+}
+.banner{
+    margin: auto;
+}
+.banner img{
+    margin-left: 5px;
+}
+.shape_left{
+    width: 80%;
+    height: 25%;
+    margin-left: 5px;
+    background-color: rgba(0,0,0,.125);
+    list-style: none;
+}
+.shape_left li{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    float: left;
+    border-bottom: 0.2px solid #164788;
+}
+.shape_left li a{
+    font-size: 15px;
+    display: block;
+    width: 40%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.shape_left li:hover{
+    background-color: lightgray;
+}
+.div_content{
+    border-bottom: 2px solid #164788;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div#rua{
+    width: 80%;
+    display:flex;
+    flex-direction:row;
+}
+div#navsecond{
+    float: left;
+    width: 20%;
+}
+div#mainpage{
+    width: 80%;
+    height: 1050px;
+    background-color: rgba(0,0,0,.125);
+}
+  

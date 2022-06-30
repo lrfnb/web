@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(255,247,230,1.00);
+}
+.shape_top{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 79.68%;
+    height: 50px;
+    background-color: gray;
+    list-style: none;
+}
+.shape_top li{
+    width: 19.99%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float: left;
+    border-right: 0.1px solid #164788;
+}
+.shape_top li a{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.shape_top li:hover{
+    background-color: lightgray;
+}
+.banner{
+    margin: auto;
+}
+.banner img{
+    margin-left: 5px;
+}
+.shape_left{
+    width: 80%;
+    height: 25%;
+    margin-left: 5px;
+    background-color: gray;
+    list-style: none;
+}
+.shape_left li{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    float: left;
+    border-bottom: 0.2px solid #164788;
+}
+.shape_left li a{
+    font-size: 15px;
+    display: block;
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.shape_left li:hover{
+    background-color: lightgray;
+}
+.div_content{
+    border-bottom: 2px solid #164788;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div#rua{
+    width: 80%;
+    display:flex;
+    flex-direction:row;
+}
+div#navsecond{
+    float: left;
+    width: 20%;
+}
+div#mainpage{
+    width: 80%;
+    height: 800px;
+    background-color: darkgray;
+}

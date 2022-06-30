@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web学习</title>
+    <!-- Custom-Files -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Bootstrap-Core-CSS -->
+		<link rel="stylesheet" href="css/link.css" type="text/css" media="all" />
+		<!-- Style-CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Font-Awesome-Icons-CSS -->
+		<!-- //Custom-Files -->
+</head>
+
+<body>
+	<div id="fullpage">
+		<div id="banner" class="banner">
+				<img src= "images/demo.png" width="100" height="80" />
+				<a style="font-size: 60px;margin-bottom: 20p;">HTML学习</a>
+		</div>
+		<!-- <div id="navfirst">
+				<ul id="menu_upper" class="shape_top">
+					<li><a href="mainpage.html">何为HTML</a></li>
+					<li><a href="document.html">HTML文档分析</a></li>
+					<li><a href="link.html">HTML超链接图片路径</a></li>
+					<li><a href="table.html">表格样例（数据库）</a></li>
+					<li><a href="example.html">一个值得学习的样例</a></li>
+				</ul>
+		</div> -->
+		<div class="container">
+			<!-- nav -->
+		   <nav class="nav nav--main" id="main-nav">
+		  <ul>
+			<li><a href="https://blog.csdn.net/weixin_59375581/article/details/125541675?spm=1001.2014.3001.5501">结课报告</a></li>
+			<li><a href="mainpage.html">何为HTML</a></li>
+			<li><a href="document.html">HTML文档分析</a></li>
+			<li class="current"><a href="link.html">HTML超链接图片路径</a></li>
+			<li><a href="table.html">表格样例（数据库）</a></li>
+			<li><a href="example.html">一个值得学习的样例</a></li>
+		</ul>   
+			</nav>
+			<!-- /nav -->
+		  </div>
+		<div id="rua">
+			<div id="navsecond">
+					<ul id="menu_left" class="shape_left">
+						<li><a href="https://qige.io/">&lt;棋歌&gt;</a></li>
+						<li><a href="https://www.csdn.net/">&lt;CSDN&gt;</a></li>
+						<li><a href="https://www.acwing.com/">&lt;Acwing&gt;</a></li>
+						<li><a href="https://www.bilibili.com/">&lt;B站&gt;</a></li>
+						<li><a href="https://www.icourse163.org/">&lt;慕课&gt;</a></li>
+					</ul>
+			</div>
+
+			
+
+			<div id="mainpage">
+				<div class="div_content">
+					<h2>HTML超链接图片路径讲解</h2>
+					<h4>1.超链接定义</h4>
+					在互联网中，超链接可谓是无处不在，它是各个网页之间的桥梁，使得网页能够进行跳转。一个网站之中的页面也必须通过超链接连接起来才能称之为网站。
+					<br>
+					<br>
+					当然，超链接除了指向另一个网页之外，还可以指向邮箱地址、图片、文件等。
+                    <br>
+                    <br>
+                    <h4>2.超链接的内容</h4>
+					<h5>2.1超链接的标签</h5>
+					超链接标签是“&lt;a&gt;”标签，我们通过向网页中添加&lt;a&gt;标签是实现超链接的重要方式，但不是唯一方式。
+                    
+					<br>
+                    <h5>2.2超链接的标签的重要属性</h5>
+					在超链接中最主要的属性有三个，分别是：href、title、target。
+					<br>
+					<br>
+					<p>
+						(1) href属性用于指示一个目标，该属性是a标签必不可少的，少了它超链接将不能跳转。href属性的值是一个链接，也就是网页或资源的地址。
+					链接可以是一个完整的地址，也可以是相对路径。对于外部连接通常使用完整的链接，链接必须包含所使用的协议（HTTP，HTTPS等），否则将是一个无效链接。
+					对于内部链接，通常使用的是相对路径。
+					</p>
+                    <br>
+                    
+					<p>
+						(2)title属性可以为超链接设置一些介绍信息。当鼠标移到设置了title属性的超链接上时，会显示title属性值的内容。
+						设置了title不仅可以提升用户体验，还可以提升网页的SEO（搜索引擎优化）
+					</p>
+                    
+                    <br>
+                    <p>
+						(3)target属性用于控制链接网页打开的位置（相对于当前网页）。默认情况下，是刷新当前网页所在的窗口，加载新的页面。
+					</p>
+						target属性值及描述:
+						<br>
+						_self：默认状态。在当前页面所在窗口打开链接的网页。
+						<br>
+						_blank：在当前浏览器中打开一个新窗口加载链接的网页。
+						<br>
+						_parent：在父窗口打开链接的网页。（有些页面可以通过等方式打开一些子窗口）
+						<br>
+						_top：清除当前窗口中打开的所有框架（子窗口），并在整个窗口打开链接的网页。	
+						<br>
+						framename：在指定的框架中打开链接的网页。
+                    <br>
+					<br>
+                    推荐前往W3School去学习超链接相关知识<a href="https://www.w3school.com.cn/">W3school</a>
+				</div>
+				<div class="div_content">
+					<h2>术语解释</h2>
+					<p><a href="https://baike.baidu.com/item/%E8%B6%85%E9%93%BE%E6%8E%A5/97857?fr=aladdin">什么是超链接？</a></p>
+				</div>
+                <div class="div_content">
+                    <h2>提示和注释</h2>
+                    <p class="tip"><span>提示：</span>target属性值中，使用得最最频繁的属性值是_self和_blank，至于_parent、_top和framename基本已不再使用</p>
+                    <p class="tip"><span>提示：</span>该网站只是一个粗略展示，若要详细学习，请前往w3cschool或菜鸟教程进行进一步学习</p>
+                </div>    
+			</div>
+		</div>
+	</div>
+    <footer class="footer">
+		<br>
+		<div class="div_liuyan" id="div_liuyan">
+			<center><label>若有提议或反馈，请给我们留言</label></center>
+			<center><textarea cols="20" rows="5"></textarea></center>
+			<center><input type="submit" value="提交留言"></center>
+		</div>
+	</footer>
+</body>
+</html>
+
+

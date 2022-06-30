@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web学习</title>
+	<link rel="stylesheet" href="css/table.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"
+	href="css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="resource/dist/css/AdminLTE.min.css">
+<link rel="stylesheet"
+	href="resource/dist/css/skins/_all-skins.min.css">
+<link rel="stylesheet"
+	href="resource/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="css/dataTables.bootstrap.css">
+</head>
+
+<body>
+	<section>
+		<!--for demo wrap-->
+		<h1>数据库作业表格样例</h1>
+		<div class="wrapper">
+			<div class="main-header " >
+				<div class="navbar navbar-static-top pull-left">				
+					<!--顶部导航栏菜单按钮-->
+					<div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="https://blog.csdn.net/weixin_59375581/article/details/125541675?spm=1001.2014.3001.5501" class="dropdown-toggle" id="goodsupplier"
+								data-toggle="dropdown">课程总结报告<span class=""></span></a></li>
+							<li class="dropdown"><a href="mainpage.html">何为HTML</html> <span
+									class=""></span></a></li>
+							<li class="dropdown"><a href="document.html" class="dropdown-toggle" id="goodsupplier"
+								data-toggle="dropdown">HTML文档分析结构<span class=""></span></a></li>
+							<li class="dropdown"><a href="link.html" class="dropdown-toggle" id="good"
+								data-toggle="dropdown">HTML超链接图片路径<span class=""></span></a></li>
+							<li class="dropdown"><a href="table.html" class="dropdown-toggle" id="goodsort"
+								data-toggle="dropdown">表格样例（数据库）<span class=""></span></a></li>
+							<li class="dropdown"><a href="example.html" class="dropdown-toggle" id="buygood"
+								data-toggle="dropdown">一个值得学习的样例<span class=""></span></a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+					<!--顶部导航栏右侧的-->
+				</div>
+			</div>
+			</div>
+			<div class="box-header with-border">
+				<button type="button" name="add" id="addgoodsorder"
+					class="btn btn-default pull-left addBtn ">
+					<i class="fa fa-plus-circle btn-default"></i>提交订单
+				</button>
+				<button type="button" name="cancel" id="cancel-btn"
+					class="btn pull-left resetBtn btn-default" title="刷新">
+					<i class="fa fa-refresh btn-default"></i>刷新
+				</button>
+				<button type="button" name="returnBtn" id="returnBtn"
+					class="btn  pull-left resetBtn btn-default" title="返回">
+					<i class="fa fa-left btn-default"></i>返回
+				</button>
+				
+				<div class="form-inline pull-right">
+					<button type="button" name="search" id="search-btn"
+						class="btn btn-default pull-right searchBtn btn-default" title="查询">
+						<i class="fa fa-search btn-default"></i>
+					</button>
+					<input type="text"
+						class="form-control pull-right name-search position-search"
+						id="findBrandById" placeholder="编号" />
+				</div>
+			</div>
+		<div class="tbl-header">
+			<table cellpadding="0" cellspacing="0" border="0">
+				<thead>
+				  <tr>
+					<th>Code</th>
+					<th>Company</th>
+					<th>Price</th>
+					<th>Change</th>
+					<th>Change %</th>
+				  </tr>
+				</thead>
+			  </table>
+		</div>
+		<div class="tbl-content">
+			<table cellpadding="0" cellspacing="0" border="0">
+			  <tbody>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+				<tr>
+				  <td>AAC</td>
+				  <td>AUSTRALIAN COMPANY </td>
+				  <td>$1.38</td>
+				  <td>+2.01</td>
+				  <td>-0.36%</td>
+				</tr>
+				<tr>
+				  <td>AAD</td>
+				  <td>AUSENCO</td>
+				  <td>$2.38</td>
+				  <td>-0.01</td>
+				  <td>-1.36%</td>
+				</tr>
+				<tr>
+				  <td>AAX</td>
+				  <td>ADELAIDE</td>
+				  <td>$3.22</td>
+				  <td>+0.01</td>
+				  <td>+1.36%</td>
+				</tr>
+				<tr>
+				  <td>XXD</td>
+				  <td>ADITYA BIRLA</td>
+				  <td>$1.02</td>
+				  <td>-1.01</td>
+				  <td>+2.36%</td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>	
+	</div>
+	  </section>
+	  
+	  
+	  
+</body>
+</html>
+
+
